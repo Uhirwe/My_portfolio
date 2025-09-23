@@ -57,7 +57,11 @@ const Hero: React.FC = () => {
               Passionate about creating technology that makes a positive impact.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <Button className="bg-primary hover:bg-primary/90 text-black font-medium">Download CV</Button>
+              <Button asChild className="bg-primary hover:bg-primary/90 text-black font-medium">
+                <a href="/cv.pdf" download>
+                  Download CV
+                </a>
+              </Button>
               <a href="#contact">
                 <Button variant="outline" className="border-primary text-black hover:text-primary hover:bg-primary/10">
                   Contact Me
