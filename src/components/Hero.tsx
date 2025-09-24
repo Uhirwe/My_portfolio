@@ -53,7 +53,7 @@ const Hero: React.FC = () => {
               Committed Software Engineer and UI/UX Designer
             </h2>
             <p className="text-gray-400 font-poppins max-w-lg mx-auto md:mx-0">
-              Building innovative solutions with a focus on user experience and clean code.
+              Building innovative & impactful solutions with a focus on user experience and clean code.
               Passionate about creating technology that makes a positive impact.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
